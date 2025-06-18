@@ -1,8 +1,8 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - *NetWise*
 
 Submitted by: **Atuh Fon**
 
-This web app: **insert description**
+This web app: **is a beginner-friendly flashcard web app designed to help students master the OSI (Open Systems Interconnection) model-one of the most important frameworks in computer networking. Users can study and test their understanding of the seven OSI layers, common protocols, and real-world examples. Cards are randomized to improve recall, and future updates will allow users to type in answers and navigate cards interactively.**
 
 Time spent: **X** hours spent in total
 

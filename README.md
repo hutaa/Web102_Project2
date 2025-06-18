@@ -2,57 +2,57 @@
 
 Submitted by: **Atuh Fon**
 
-This web app: **is a beginner-friendly flashcard web app designed to help students master the OSI (Open Systems Interconnection) model-one of the most important frameworks in computer networking. Users can study and test their understanding of the seven OSI layers, common protocols, and real-world examples. Cards are randomized to improve recall, and future updates will allow users to type in answers and navigate cards interactively.**
+Description: **NetWise is a beginner-friendly flashcard web app designed to help students master the OSI (Open Systems Interconnection) model-one of the most important frameworks in computer networking. Users can study and test their understanding of the seven OSI layers, common protocols, and real-world examples. Cards are randomized to improve recall, and future updates will allow users to type in answers and navigate cards interactively.**
 
-Time spent: **X** hours spent in total
+Time spent: **4.5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-
-- [ ] **The app displays the title of the card set, a short description, and the total number of cards**
-  - [ ] Title of card set is displayed 
-  - [ ] A short description of the card set is displayed 
-  - [ ] A list of card pairs is created
-  - [ ] The total number of cards in the set is displayed 
-  - [ ] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
-- [ ] **A single card at a time is displayed**
-  - [ ] Only one half of the information pair is displayed at a time
-- [ ] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-  - [ ] Clicking on a card flips it over, showing the back with corresponding information 
-  - [ ] Clicking on a flipped card again flips it back, showing the front
-- [ ] **Clicking on the next button displays a random new card**
+- [x] **The app displays the title of the card set, a short description, and the total number of cards**
+  - [x] Title of card set is displayed 
+  - [x] A short description of the card set is displayed 
+  - [x] A list of card pairs is created
+  - [x] The total number of cards in the set is displayed 
+  - [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
+- [x] **A single card at a time is displayed**
+  - [x] Only one half of the information pair is displayed at a time
+- [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
+  - [x] Clicking on a card flips it over, showing the back with corresponding information 
+  - [x] Clicking on a flipped card again flips it back, showing the front
+- [x] **Clicking on the next button displays a random new card**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contain images in addition to or in place of text
-  - [ ] Some or all cards have images in place of or in addition to text
-- [ ] Cards have different visual styles such as color based on their category
+- [x] Cards contain images in addition to or in place of text
+  - [x] Some or all cards have images in place of or in addition to text
+- [x] Cards have different visual styles such as color based on their category
   - Example categories you can use:
     - Difficulty: Easy/medium/hard
     - Subject: Biology/Chemistry/Physics/Earth science
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [x] Flashcard flip animation using CSS 3D transforms
+- [x] “Previous” button to return to earlier cards (history tracking)
+- [x] Styling polish: button hover effects, rounded corners, and clear layout separation
+- [x] Dynamic card counter using flashcards.length
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='NetWise.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with:
+- [EzGIF](https://ezgif.com/) for Windows
 
-## Notes
-
-Describe any challenges encountered while building the app.
+## Challenges
+- Debugging the CSS flip animation, especially getting the .card-content and .flipped logic to work properly with absolute positioning and backface visibility
+- Getting the random card logic to avoid immediate repetition
+- Making sure the cards resized well and stayed centered with both text and image content
+- Managing both a forward/back history system without breaking the current index
 
 ## License
 
